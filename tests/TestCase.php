@@ -45,7 +45,7 @@ abstract class TestCase extends OrchestraTestCase
 
         $configs = [
             'assets', 'cp', 'forms', 'static_caching',
-            'sites', 'stache', 'system', 'users',
+            'stache', 'system', 'users',
         ];
 
         foreach ($configs as $config) {
