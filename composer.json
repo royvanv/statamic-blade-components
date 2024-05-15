@@ -47,7 +47,7 @@
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"
         ],
-        "test:types": "./vendor/bin/phpstan analyse --ansi --memory-limit=0",
+        "test:types": "./vendor/bin/phpstan analyse --ansi",
         "test": "./vendor/bin/pest"
     },
     "extra": {
